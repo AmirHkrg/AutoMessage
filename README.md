@@ -5,8 +5,8 @@ Send automatic messages for WhatsApp and Shad
   1) Enter The Phone Number >> example >> +YY XXX XXX XXXX
   2) Enter Your Message     >> example >> Hello, World!
   3) Enter The Hour         >> example >> 18
-      00 - 11 >> AM
-      12 - 23 >> PM
+      * 00 - 11 >> AM
+      * 12 - 23 >> PM
   4) Enter The Minute       >> example >> 48
   
   If you see : 
@@ -22,8 +22,8 @@ Send automatic messages for WhatsApp and Shad
       The last part of the link is the ID >> https://chat.whatsapp.com/invite/{[ Group ID ]}
   2) Enter Your Message     >> example >> Hello, World!
   3) Enter The Hour         >> example >> 18
-      00 - 11 >> AM
-      12 - 23 >> PM
+      * 00 - 11 >> AM
+      * 12 - 23 >> PM
   4) Enter The Minute       >> example >> 48
     
   If you see : 
@@ -39,8 +39,8 @@ Send automatic messages for WhatsApp and Shad
       The last part of the link is the ID >> https://web.shad.ir/#c={[ Group ID ]}
   2) Enter Your Message     >> example >> Hello, World!
   3) Enter The Hour         >> example >> 18
-      00 - 11 >> AM
-      12 - 23 >> PM
+      * 00 - 11 >> AM
+      * 12 - 23 >> PM
   4) Enter The Minute       >> example >> 48
   
   If you see : 
