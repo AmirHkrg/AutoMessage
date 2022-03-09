@@ -1,4 +1,4 @@
-# AutoMessage
+# Whatsapp AutoMessage
 Send automatic messages for WhatsApp and Shad
 
 # To send an automatic message to a WhatsApp number       select 1 :
