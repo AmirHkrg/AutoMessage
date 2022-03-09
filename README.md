@@ -45,7 +45,7 @@ Send automatic messages for WhatsApp and Shad
   
   If you see : 
   
-   ** the message In { remaining time } seconds web.whatsapp.com will open and after 10 seconds message will be delivered ** 
+   ** the message In { remaining time } seconds web.shad.ir will open and after 10 seconds message will be delivered ** 
    
   it means that your message will be sent at the specified time.
   
