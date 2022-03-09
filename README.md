@@ -19,7 +19,7 @@ Send automatic messages for WhatsApp and Shad
 
 # To send an automatic message to a WhatsApp group        select 2 :
   1) Enter The Group ID     >> example >> E79tAlBz9iuFOEdpWoviUZG2A 
-      The last part of the link is the ID >> https://chat.whatsapp.com/invite/{[ Group ID ]}
+      ` The last part of the link is the ID >> https://chat.whatsapp.com/invite/{[ Group ID ]}
   2) Enter Your Message     >> example >> Hello, World!
   3) Enter The Hour         >> example >> 18
       * 00 - 11 >> AM
