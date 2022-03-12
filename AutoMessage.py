@@ -5,9 +5,9 @@ import webbrowser as web
 import pyautogui as pg
 from colorama import Fore
 
-def sendwhatmsg_to_group(group_id: str, message: str, time_hour: int, time_min: int,
+def sendwhatmsg_to_group(group_id: str, message: str, time_hour: int, time_min: int, wait_time: int = 10,
                          tab_close: bool = False, close_time: int = 3 ) -> None:
-
+    
     if time_hour not in range(25) or time_min not in range(60):
         print("Invalid time format")
 
@@ -33,7 +33,7 @@ def sendwhatmsg_to_group(group_id: str, message: str, time_hour: int, time_min: 
 
     if left_time < wait_time:
         raise CallTimeException(
-            "Call time must be greater than wait_time as web.whatsapp.com takes some time to load")
+            "Call time must be greater than wait_time as web.shad.ir takes some time to load")
 
     date = "%s:%s:%s" % (current_time.tm_mday, current_time.tm_mon, current_time.tm_year)
     time_write = "%s:%s" % (timehr, time_min)
@@ -115,10 +115,11 @@ def sendwhatmsg(phone_no: str, message: str, time_hour: int, time_min: int, wait
     global sleep_time
     if "+" not in phone_no:
         raise CountryCodeException("Country code missing from phone_no")
-    timehr = time_hour
 
     if time_hour not in range(25) or time_min not in range(60):
         raise Warning("Invalid Time Format")
+
+    timehr = time_hour
 
     if time_hour == 0:
         time_hour = 24
