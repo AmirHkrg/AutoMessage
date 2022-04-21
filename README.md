@@ -1,5 +1,5 @@
 # Automatic  Messenger
-Send automatic messages for WhatsApp and Shad
+*Send automatic messages for WhatsApp, instagram and Shad
 
 # To send an automatic message to a WhatsApp number       select 1 :
   1) Enter The Phone Number >> example >> +YY XXX XXX XXXX
